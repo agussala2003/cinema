@@ -54,13 +54,14 @@ main {
         display: flex;
         flex-direction: column;
         align-items: flex-start;
-        margin-left: 5%;
+        margin-left: 9%;
         .lists {
             display: flex;
             flex-direction: row;
             flex-wrap: wrap;
         }
         .title {
+            margin: 2% 0% 0% 0%;
             font-family: 'Charis SIL', serif;
             }
         .dropdown {
@@ -76,6 +77,7 @@ main {
         flex-direction: row;
         justify-content: space-around;
         flex-wrap: wrap;
+        margin: 4% 4% 0% 4%;
         .cards {
             img {
                 width: 200px;

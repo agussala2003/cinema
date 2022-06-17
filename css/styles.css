@@ -34,7 +34,7 @@ main .intro {
   display: flex;
   flex-direction: column;
   align-items: flex-start;
-  margin-left: 5%;
+  margin-left: 9%;
 }
 main .intro .lists {
   display: flex;
@@ -42,6 +42,7 @@ main .intro .lists {
   flex-wrap: wrap;
 }
 main .intro .title {
+  margin: 2% 0% 0% 0%;
   font-family: "Charis SIL", serif;
 }
 main .intro .dropdown {
@@ -56,6 +57,7 @@ main .film-cards {
   flex-direction: row;
   justify-content: space-around;
   flex-wrap: wrap;
+  margin: 4% 4% 0% 4%;
 }
 main .film-cards .cards img {
   width: 200px;
@@ -118,7 +120,6 @@ footer .footer .social ul li a .bi:hover {
     color: #000;
     background-color: #fff;
   }
-
   main .film-cards {
     display: flex;
     flex-direction: row;

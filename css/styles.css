@@ -22,7 +22,7 @@ header .navbar .container-fluid .navbar-brand img {
   border-top: 0.5px solid #fff;
 }
 .hero .films {
-  margin: 5%;
+  margin: 5% 5% 0% 5%;
 }
 .hero .films .lists {
   display: flex;
@@ -123,6 +123,56 @@ header .navbar .container-fluid .navbar-brand img {
   font-size: 14px;
   background-color: #000;
   color: #000;
+}
+
+@media screen and (max-width: 450px) {
+  .hero .films .lists {
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    flex-wrap: wrap;
+  }
+  .hero .films .lists .dropdown .btn {
+    margin-top: 10px;
+    color: #fff;
+    background-color: #000;
+    border: 1px solid #fff;
+  }
+  .hero .films .lists .dropdown .dropdown-menu li .dropdown-item {
+    border-top: 0.5px solid rgb(142, 140, 140);
+    font-size: 14px;
+    background-color: #fff;
+  }
+  .hero .films .lists .dropdown .dropdown-menu li .dropdown-item:hover {
+    font-weight: 600;
+  }
+}
+footer {
+  padding: 5% 5% 2% 5%;
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+}
+footer h3 {
+  color: #fff;
+  font-size: 16px;
+}
+footer .social {
+  display: flex;
+  flex-direction: row;
+}
+footer .social a {
+  color: #fff;
+  font-size: 20px;
+  padding-left: 8px;
+  transition: all 1s;
+  -webkit-transition: all 1s;
+  -moz-transition: all 1s;
+  -ms-transition: all 1s;
+  -o-transition: all 1s;
+}
+footer .social a:hover {
+  color: rgb(174, 174, 174);
 }
 
 * {

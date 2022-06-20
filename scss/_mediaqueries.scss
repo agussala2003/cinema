@@ -1,0 +1,34 @@
+@media screen and (max-width:450px) {
+    .hero {
+        .presentacion {
+        }
+        .films {
+            .lists {
+                display: flex;
+                flex-direction: row;
+                justify-content: flex-start;
+                flex-wrap: wrap;
+                .dropdown {
+                    .btn {
+                        margin-top: 10px;
+                        color: #fff;
+                        background-color: #000;
+                        border: 1px solid #fff;
+                    }
+                    .dropdown-menu {
+                        li {
+                            .dropdown-item {
+                                border-top: 0.5px solid rgb(142, 140, 140);
+                                font-size: 14px;
+                                background-color: #fff;
+                                &:hover {
+                                    font-weight: 600;
+                                }
+                            }
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
